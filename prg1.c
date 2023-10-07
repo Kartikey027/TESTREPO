@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
 {
-    printf("fuck you \n fuck your mom \n fuck your family");
-    return(69);
+    printf("hello world");
+    return(0);
 }

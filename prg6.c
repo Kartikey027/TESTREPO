@@ -10,7 +10,10 @@ int main()
         {
             gcd=i;
         }
+
     }
-    printf("the GCD of %d and %d is %d",a,b,gcd);
-    return 0;
+    printf("the GCD of %d and %d is %d \n",a,b,gcd);
+    int lcm=(a*b)/gcd;
+    printf("the LMC of %d and %d is %d \n",a,b,lcm);
+        return 0;
 }

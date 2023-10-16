@@ -1,27 +1,25 @@
 #include <stdio.h>
+#include <math.h>
 int main()
 {
-    int n,x,sum,pro,i;
-    printf("enter any number >>");
-    scanf("%d",&n);
-    i=n;
+    int no,i,x,sum;
+    printf("Enter a number >>");
+    scanf("%d",&no);
     sum=0;
-    pro=1;
+    i=no;
     while(i>0)
     {
         x=i%10;
         i=i/10;
-        sum+=x;
-        pro*=x;
+        sum+=pow(x,3);
     }
-    if(sum==pro)
+    if(sum==no)
     {
-        printf("%d is a Spy number",n);
+        printf("%d is an Angstrom number ",no);
     }
     else
     {
-        printf("%d is not a Spy number ",n);
+        printf("%d is not an Angstrom number ",no);
     }
     return 0;
-
 }

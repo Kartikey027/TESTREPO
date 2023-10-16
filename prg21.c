@@ -4,7 +4,7 @@ int main()
     int no,i,flag;
     flag=0;
     printf("Enter a number >>");
-    scanf("d",no);
+    scanf("%d",&no);
     for(i=1;i<no;i++)
     {
         if(i*(i+1)==no)
